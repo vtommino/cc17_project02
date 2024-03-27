@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./news.html">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+    </ul>
+    <hr />
+    <h1>Contact Page</h1>
+    <hr />
+    <fieldset>
+        <h3>Please fill-in form</h3>
+        <form action="./index.html" method="POST">
+            <label> First Name:
+                <input type="text" name="fname" /><br /><br />
+            </label>
+            <label> Last Name:
+                <input type="text" name="lname" /><br /><br />
+            </label>
+            <input type="submit" />
+        </form><br><br>
+
+        <fieldset>
+            <legend>Your Favorite Course </legend>
+            <p>Choose your favorite language</p>
+            <form action="/action_page.php">
+                <label>
+                    <input type="radio" id="html" name="fav_language" value="html">HTML
+                </label><br>
+
+                <label>
+                    <input type="radio" id="css" name="fav_language" value="CSS">CSS
+                </label><br>
+
+                <label>
+                    <input type="radio" id="js" name="fav_language" value="Javascript">Javascript
+                </label><br><br>
+                <input type="submit" />
+        </fieldset>
+        <p>Framework</p>
+        <label>
+            <input type="radio" name="framework" value="Angular">Angular
+        </label><br>
+        <label>
+            <input type="radio" name="framework" value="React">React
+        </label>
+        <br><br>
+        <button>OK</button>
+        <button type="button">Cancel</button>
+        <input type="submit" />
+
+        </form>
+        <br><br>
+    </fieldset>
+</body>
+
+</html>
